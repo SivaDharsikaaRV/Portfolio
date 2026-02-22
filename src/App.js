@@ -73,7 +73,7 @@ function Modal({item,onClose}){
 
 /* ── Nav ── */
 function Nav({page,setPage}){
-  const [open,setOpen]=useState(false);
+  const [,setOpen]=useState(false);
   const pages=["home","about","projects","certifications","skills","contact"];
   return(
     <nav style={{position:"fixed",top:0,left:0,right:0,zIndex:1000,padding:"0 40px",height:"64px",display:"flex",alignItems:"center",justifyContent:"space-between",background:"rgba(10,10,15,.88)",backdropFilter:"blur(20px)",borderBottom:"1px solid var(--border)"}}>
